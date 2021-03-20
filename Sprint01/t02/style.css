@@ -1,0 +1,17 @@
+.gaunlet {
+    width: 200px;
+    height: 300px;
+}
+
+img.person {
+    width: 100px;
+    height: 100px;
+}
+
+.gaunlet:hover ~ .fir .person:nth-child(odd) {
+    visibility: hidden;
+}
+
+.gaunlet:hover ~ .sec .person:nth-child(even) {
+    visibility: hidden;
+}

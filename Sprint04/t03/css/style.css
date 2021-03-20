@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 700px;
+  height: 500px;
+  margin: 150px auto;
+}
+
+#left {
+  background: grey;
+  height: 100%;
+  width: 100px;
+  float: left;
+}
+
+#left-sign {
+  width: 0;
+  height: 0;
+  margin: 230px auto;
+  border-right: 40px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+#right {
+  background: grey;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+
+#right-sign {
+  width: 0;
+  height: 0;
+  margin: 230px auto;
+  border-left: 40px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+#image {
+  float: left;
+  width: 500px;
+  height: inherit;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}

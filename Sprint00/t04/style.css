@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    font-family: Verdana; 
+    color: rgba(255, 255,255, 0.5);
+}
+
+p {
+    font-size: 12px;
+    margin: 10px;
+    text-align: end;
+}
+
+span {
+    font-size: 9px;
+}
+
+.card {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 0;
+    position: relative;
+}
+
+#captain {
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+#iron {
+    background: linear-gradient(#E52D27, #B31217);
+}
+#widow {
+    background: linear-gradient(#000, #61045F);
+}
+#spider {
+    background: linear-gradient(#E52D27, #000);
+}
+
+img {
+    height: 182px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.image_spider {
+    top: 0px;
+}
+

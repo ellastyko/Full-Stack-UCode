@@ -1,0 +1,63 @@
+h1 {
+    margin: 10px;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 550px;
+    padding: 10px;
+}
+
+.note {
+    width: calc(100%-10px);
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+.b1 {
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(8, 156, 255);
+    border: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: rgb(50, 50, 87);
+}
+
+.b1:active {
+    background-color: rgb(9, 75, 117);
+}
+
+.b1:hover {
+    background-color: rgb(25, 130, 201);
+}
+
+.input-container, .output-container {
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 30px 20px 30px 20px;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline-color:  rgb(8, 156, 255);
+}

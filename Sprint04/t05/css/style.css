@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.stone {
+    transform: rotate(45deg);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+
+#red {
+    
+    left: 40px;
+    top: 40px;
+    background: red;
+}
+
+#yellow {
+    left: 120px;
+    top: 150px;
+    background: yellow;
+}
+
+#blue {
+    left: 20px;
+    top: 250px;
+    background: blue;
+}
+
+#green {
+    left: 60px;
+    top: 360px;
+    background: green;
+}
+
+#purple {
+    left: 40px;
+    top: 480px;
+    background: purple;
+}
+
+#rose {
+    left: 70px;
+    top: 600px;
+    background: pink;
+}
+

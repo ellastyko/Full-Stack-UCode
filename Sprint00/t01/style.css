@@ -1,0 +1,52 @@
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#header {
+    margin: 0px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+td {
+    border: solid 2px rgb(180, 177, 177);
+}
+
+.header {
+    color: white;
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}

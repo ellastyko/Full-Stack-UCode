@@ -1,0 +1,290 @@
+
+.main {
+    margin: 200px;
+    width: 700px;
+    height: 480px;
+    background: #3e4751;
+    border-radius: 10px;
+}
+
+
+/* MAIN BLOCK */
+.main-block {
+    float:left;
+    border: 1px solid grey;
+    float: left;
+    width: 570px;
+    height: 420px;
+    border-radius: 5px;
+    margin: 25px 0 25px 10px;
+    background: #48525e;
+}
+
+.left-bar {
+    float:left;
+    width: calc(50% - 40px);
+    height: calc(420px - 32px);
+    padding: 16px 20px;
+}
+
+.right-bar {
+    float:left;
+    width: calc(50% - 40px);
+    height: calc(420px - 32px);
+    padding: 16px 20px;
+}
+
+
+/* LEFT SIDEBAR */
+
+p, label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c9cacb;
+}
+
+select {
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    color: #c9cacb;
+    background: #363d48;
+}
+
+select {
+    outline: none;
+}
+
+
+
+/* Radio */
+.weight {
+    margin: 30px 0;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+
+#regular ~ #label-regular::before {
+    background: #313a42;
+    content: '\20DE';
+}
+
+#regular:checked ~ #label-regular::before {
+    background: #313a42;
+    content: '\2713';
+}
+
+#bold ~ #label-bold::before {
+    background: #313a42;
+    content: ' \20DE';
+}
+
+#bold:checked ~ #label-bold::before {
+    background: #313a42;
+    content: '\2713 ';
+}
+
+/* Range */
+
+.size {
+    margin: 30px 0;
+}
+
+input[type="range"] {
+    outline: none;
+    cursor: pointer;
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+    width: transparent;
+    -webkit-appearance: none;
+    width: 70%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 20px;
+    height: 20px;
+    background-color: rgb(71, 191, 161); 
+    border-radius: 50%;
+    margin-top: -8px; 
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: rgb(64, 71, 80);
+    height: 2px;
+} 
+
+.A p {
+    color: white;
+    width: 70%;
+    font-size: 14px;
+}
+
+.A span {
+    color: white;
+    float: right;
+    font-size: 22px;
+}
+
+
+/* RIGHT SIDEBAR */
+
+.switcher {
+    margin: 30px 0 30px 0;
+    line-height: 60px;
+    height: 60px;
+}
+
+.switcher p {
+    margin: 0;
+    display: inline-block;
+}
+
+.switch {
+    margin: 13px 0;
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 34px;
+}
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+} 
+
+
+/* Colors */
+
+.color input {
+    display: none;
+}
+
+.color div {
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px; 
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+.color span {
+    visibility: hidden;
+}
+
+
+#label-blue {
+    background: blue;
+}
+#blue:checked ~ label #label-blue span {
+    visibility: visible;
+}
+
+#label-green {
+    background: green;
+}
+#green:checked ~ label #label-green span {
+    visibility: visible;
+}
+
+
+
+#label-rose{
+    background: purple;
+}
+#rose:checked ~ label #label-rose span {
+    visibility: visible;
+}
+
+
+#label-yellow {
+    background: yellow;
+}
+#yellow:checked ~ label #label-yellow span {
+    visibility: visible;
+}
+
+#label-orange {
+    background: orange;
+}
+#orange:checked ~ label #label-orange span {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+/* MAIN SIDEBAR */
+.main-sidebar {
+    float: left;
+    margin: 90px 0;    
+    width: 100px;
+    height: 300px;
+    background: #313a42;
+    border-radius: 0 20px 20px 0;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 20px;
+}

@@ -1,0 +1,24 @@
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: green;
+    animation: moving 15s linear infinite;
+    
+}
+.circle:hover{
+    transition: 2s;
+    background: red;
+}
+
+@keyframes moving{
+    0%{
+        margin-left: 0%;
+    }
+    50%{
+        margin-left: calc(100% - 100px);
+    }
+    100%{
+        margin-right: 100%;
+    }
+}

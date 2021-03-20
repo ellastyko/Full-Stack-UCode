@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form>
+        <fieldset>
+            <legend>About the Superhero</legend>
+            <label for="rn">Real Name</label> <input id='rn' type="text" autofocus required>
+            <label for="sn">Superhero Name</label> <input id='sn' type="text">
+            <label for="age">Age</label> <input id='age' type="number" min='1' max="999">
+            <br> <br>
+            <label for="about">About</label> 
+            <textarea name="" id="about" cols="70" rows="5" maxlength="500"></textarea>
+            <p>Photo: <input type="file"></p> 
+            
+        </fieldset>
+        <fieldset>
+            <legend>Powers</legend>
+            <input type="checkbox"> <label for="">Telekinesis</label>
+            <input type="checkbox"> <label for="">Super strength or speed</label>
+            <input type="checkbox"> <label for="">Shapeshifting</label>
+            <input type="checkbox"> <label for="">Flight</label>
+            <input type="checkbox"> <label for="">Elemental control</label>
+            <input type="checkbox"> <label for="">Other</label>
+            <br> <br>
+            <label for="">Level of control</label><input type="range">
+        </fieldset>
+        <fieldset>
+            <legend>Origin of Powers</legend>
+            <input type="radio" name='radio'> <label for="">Unknown</label>
+            <input type="radio" name='radio'> <label for="">Freak lab accident</label>
+            <input type="radio" name='radio'> <label for="">Chosen by ancient wise being</label>
+            <input type="radio" name='radio'> <label for="">The superhero isn`t human</label>
+            <input type="radio" name='radio'> <label for="">Other</label> 
+        </fieldset>
+        <input type="reset" name='reset'>
+        <input type="submit" name='submit'>
+    </form>
+</body>
+</html>

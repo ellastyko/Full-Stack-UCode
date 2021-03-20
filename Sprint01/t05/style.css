@@ -1,0 +1,34 @@
+
+div {
+    width: 100%;
+    display: flex;
+}
+
+input {
+    padding: 0 10px;
+    width: 100%;
+    color:green;
+    height: 2em;
+}
+
+
+input::placeholder {
+    color: green;
+}
+
+input:hover {
+    color: red;
+}
+
+input:focus {
+    color: green;
+}
+
+button {
+    height: 2em;
+    color: grey;
+}
+
+button:hover {
+    color: red;
+}

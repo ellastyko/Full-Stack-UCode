@@ -1,0 +1,25 @@
+table {
+    
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+tr {
+    height: 60px;
+    line-height: 60px;
+}
+
+th {
+    background: red;
+    text-align: center;
+    height: 60px;
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+td {
+    background: lightgrey;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+div {
+    float: left;
+    margin: 3px;
+    width:  160px;
+    height: 300px;
+}
+
+div:hover {
+    box-shadow:  -2px -2px 2px  grey, 2px 2px 2px  grey;   
+}
+
+.date {
+    font: 1.5em 'Lato Bold';
+    color:  white;
+    background: rgb(121, 121, 194);
+}
+
+.temp {
+    font: 2em 'Lato Regular';
+}
+

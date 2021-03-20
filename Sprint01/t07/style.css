@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    min-width: 896px;
+    line-height: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background: brown;
+    color: white; 
+}
+
+
+
+/* NAME */
+.header-name {
+    text-align: center;
+    margin: 0 5% 0 0;
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+/* NAVIGATION */
+.header-nav {
+    width: calc(4% + 190px);
+    height: 100%;
+    justify-content: center;
+    display: inline-block;
+    margin: 0 0 0 10%;
+}
+
+.header-nav p {
+    margin: 0 2% 0 2%;
+    text-align: center;
+    width: 60px;
+    display: inline-block;
+}
+
+
+/* SEARCH */
+.header-search {
+    text-align: center;
+    width: 420px;
+    float: right;
+}
+
+.header-search input, .header-search a {
+    margin: 0 30px 0 0;
+}
+
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header input {
+    
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.header input::placeholder {
+    color: white;
+}
+
+
+
+/* SECOND NAVIGATION */
+
+.navigation {
+    width: calc(100% - 20px);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: rgba(236, 217, 191);
+}
+
+h1 {
+    margin: 20px;
+}
+
+
+/* CHECHBOXES */
+.checkboxes input[type='checkbox'] {
+    display: none;
+}
+
+
+.checkboxes {
+    min-width: 450px;
+    margin: 0 0 20px 60px;
+}
+
+
+.checkboxes div {
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.checkboxes span {
+    visibility: hidden;
+}
+
+input[type='checkbox']:checked ~ div span {
+    visibility: visible;
+}
+
+
+input[type='checkbox']:checked ~ div {
+    background: black;
+    color: white;
+}
+
+
+/* LEFT SIDEBAR */
+
+.left-sidebar {
+    float: left;
+    width: 210px;
+    /* height: calc(100vh - 281px); */
+    padding: 40px 40px;
+    justify-content: center;
+}
+
+.left-sidebar div {
+    display: block;
+    width: 100%;
+}
+
+.left-sidebar div label {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.price span {
+    margin: 0 0 0 80px;
+}
+
+
+/* CONTENT */
+
+.content {
+    float: left;
+    width: calc(100% - 290px);
+    height: calc(100vh - 274px);
+    min-height: 812px;
+}
+
+.content div img {
+    float: left;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.item {
+    min-width: 360px;
+}
+
+.content div {
+    margin: 20px 30px;
+    float: left;
+}
+
+.content  p {
+    margin: 5px;
+}
+
+.content div button {
+    font-size: 16px;
+    text-align: center;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+}
+
+.content div button:hover {
+    border: none;
+    transition: linear 0.5s;
+    background: brown;
+}
+
+.content div button:focus {
+    outline: none;
+    background: none;
+}
+
+.item p {
+    margin: 0 0 20px 0;
+}
+
+section {
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: none;
+    }
+    /* CONTENT */
+    .content {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .item {
+        width: calc(100% - 60px);
+    }
+
+    .item > div {   
+        margin-left: 120px; 
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    section.index {
+        min-width: 1560px;
+    }
+}
+
+
+
+
+
+/*  FOOTER */
+
+footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: brown;
+    flex: 0 0 auto;
+}
+
+
+
+
+/* CARD.HTML */
+section.card {
+    min-height: calc(100vh - 140px);
+    width: 100%; 
+    min-width: 1020px;
+}   
+
+section.card > div{
+    padding: 50px;
+    display: inline-block;
+}
+
+
+
+.info-block {
+    justify-content: center;
+}
+
+.main-info h3, .description p, .main-info button, .main-info p {
+    margin: 10px;
+}
+
+.main-info button {
+    background:  brown;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px; 
+}
+
+.main-info button:hover {
+    background:  grey;
+    transition: linear 0.5s;
+    border: 1 solid grey;
+}
+
+.main-info button:focus {
+    outline: none;
+}
+
+img.product {
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;;
+}  
