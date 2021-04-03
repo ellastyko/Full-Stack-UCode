@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+    width: 95%;
+    margin: 5px auto;
+    background:rgb(75, 43, 75);
+}
+
+.main  {
+    min-height: 35px;
+    line-height: 35px;
+    width: calc(95% - 20px);
+    margin: 5px auto;
+    background: rgb(97, 34, 97);
+    color: white;
+    padding: 0 10px;
+}
+
+
+span {
+    color:royalblue;
+}
