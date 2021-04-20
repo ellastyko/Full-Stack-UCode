@@ -1,0 +1,1256 @@
+2021-04-13 12:15:34 pid:21701 Workerman[server.php] start in DEBUG mode
+2021-04-13 12:16:06 pid:21764 Workerman[server.php] status 
+2021-04-13 12:16:06 pid:21764 Workerman[server.php] not run
+2021-04-13 12:16:20 pid:21786 Workerman[server.php] start in DEBUG mode
+2021-04-13 12:17:17 pid:21914 Workerman[server.php] start in DEBUG mode
+2021-04-13 12:18:24 pid:22086 Workerman[server.php] start in DEBUG mode
+2021-04-13 12:38:55 pid:25006 Workerman[server.php] start in DEBUG mode
+2021-04-13 13:33:48 pid:36052 Workerman[server.php] start in DEBUG mode
+2021-04-13 13:44:42 pid:45216 Workerman[server.php] start in DEBUG mode
+2021-04-13 13:55:18 pid:48289 Workerman[server.php] start in DEBUG mode
+2021-04-13 13:55:18 pid:48289 Workerman[server.php] already running
+2021-04-13 13:55:25 pid:48296 Workerman[server.php] stop 
+2021-04-13 13:55:25 pid:48296 Workerman[server.php] is stopping ...
+2021-04-13 13:55:30 pid:48296 Workerman[server.php] stop fail
+2021-04-13 13:56:57 pid:48465 Workerman[server.php] start in DEBUG mode
+2021-04-13 13:56:57 pid:48465 Workerman[server.php] already running
+2021-04-13 13:57:04 pid:48480 Workerman[server.php] stop 
+2021-04-13 13:57:04 pid:48480 Workerman[server.php] is stopping ...
+2021-04-13 13:57:09 pid:48480 Workerman[server.php] stop fail
+2021-04-13 13:58:17 pid:48618 Workerman[server.php] restart 
+2021-04-13 13:58:17 pid:48618 Workerman[server.php] is stopping ...
+2021-04-13 13:58:22 pid:48618 Workerman[server.php] stop fail
+2021-04-13 14:17:17 pid:50794 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:22:57 pid:51451 Workerman[server.php] stop 
+2021-04-13 14:22:57 pid:51451 Workerman[server.php] is stopping ...
+2021-04-13 14:23:02 pid:51451 Workerman[server.php] stop fail
+2021-04-13 14:23:23 pid:51497 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:23:23 pid:51497 Workerman[server.php] already running
+2021-04-13 14:23:29 pid:51511 Workerman[server.php] restart 
+2021-04-13 14:23:29 pid:51511 Workerman[server.php] is stopping ...
+2021-04-13 14:23:34 pid:51511 Workerman[server.php] stop fail
+2021-04-13 14:24:22 pid:51632 Workerman[server.php] stop 
+2021-04-13 14:24:22 pid:51632 Workerman[server.php] not run
+2021-04-13 14:24:37 pid:51669 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:27:33 pid:51669 Workerman[server.php] stopping ...
+2021-04-13 14:27:33 pid:51669 Workerman[server.php] has been stopped
+2021-04-13 14:27:53 pid:52031 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:28:31 pid:52035 worker[52035] remains 0 connection(s)
+2021-04-13 14:29:12 pid:52186 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:41:50 pid:53639 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:47:25 pid:53639 Workerman[server.php] stopping ...
+2021-04-13 14:47:25 pid:53639 Workerman[server.php] has been stopped
+2021-04-13 14:47:34 pid:52190 worker[52190] remains 0 connection(s)
+2021-04-13 14:48:19 pid:54357 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:57:27 pid:55391 Workerman[server.php] start in DEBUG mode
+2021-04-13 14:57:27 pid:55391 Workerman[server.php] already running
+2021-04-13 14:57:32 pid:54360 Worker[54360] process terminated
+2021-04-13 14:58:00 pid:55475 Workerman[server.php] start in DEBUG mode
+2021-04-13 15:07:34 pid:56538 Workerman[server.php] start in DEBUG mode
+2021-04-13 16:15:56 pid:56541 worker[56541] remains 0 connection(s)
+2021-04-13 16:37:18 pid:66716 Workerman[server.php] start in DEBUG mode
+2021-04-13 16:49:56 pid:68083 Workerman[server.php] start in DEBUG mode
+2021-04-13 16:49:56 pid:68083 Workerman[server.php] already running
+2021-04-13 16:51:06 pid:68233 Workerman[server.php] start in DEBUG mode
+2021-04-13 16:51:16 pid:68237 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#9 {main}
+2021-04-13 16:51:16 pid:68237 Worker[68237] process terminated
+2021-04-13 16:51:17 pid:68233 worker[none:68237] exit with status 64000
+2021-04-13 16:52:29 pid:68255 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#11 {main}
+2021-04-13 16:52:29 pid:68255 Worker[68255] process terminated
+2021-04-13 16:52:29 pid:68233 worker[none:68255] exit with status 64000
+2021-04-13 16:56:07 pid:68790 Workerman[server.php] start in DEBUG mode
+2021-04-13 16:56:12 pid:68795 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#9 {main}
+2021-04-13 16:56:12 pid:68795 Worker[68795] process terminated
+2021-04-13 16:56:12 pid:68790 worker[none:68795] exit with status 64000
+2021-04-13 16:57:03 pid:68807 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#11 {main}
+2021-04-13 16:57:03 pid:68807 Worker[68807] process terminated
+2021-04-13 16:57:03 pid:68790 worker[none:68807] exit with status 64000
+2021-04-13 16:57:44 pid:68903 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#11 {main}
+2021-04-13 16:57:44 pid:68903 Worker[68903] process terminated
+2021-04-13 16:57:44 pid:68790 worker[none:68903] exit with status 64000
+2021-04-13 16:58:37 pid:68793 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#9 {main}
+2021-04-13 16:58:37 pid:68793 Worker[68793] process terminated
+2021-04-13 16:58:37 pid:68790 worker[none:68793] exit with status 64000
+2021-04-13 16:59:14 pid:69154 Workerman[server.php] start in DEBUG mode
+2021-04-13 17:00:19 pid:69288 Workerman[server.php] start in DEBUG mode
+2021-04-13 17:00:21 pid:69158 worker[69158] remains 0 connection(s)
+2021-04-13 17:01:17 pid:69415 Workerman[server.php] start in DEBUG mode
+2021-04-13 17:01:21 pid:69292 worker[69292] remains 0 connection(s)
+2021-04-13 17:02:50 pid:69604 Workerman[server.php] start in DEBUG mode
+2021-04-13 17:02:58 pid:69419 worker[69419] remains 0 connection(s)
+2021-04-13 17:03:39 pid:69709 Workerman[server.php] start in DEBUG mode
+2021-04-13 17:03:41 pid:69607 worker[69607] remains 0 connection(s)
+2021-04-13 17:03:42 pid:69713 Error: Object of class stdClass could not be converted to string in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:17
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#9 {main}
+2021-04-13 17:03:42 pid:69713 Worker[69713] process terminated
+2021-04-13 17:03:42 pid:69709 worker[none:69713] exit with status 64000
+2021-04-13 17:04:53 pid:69875 Workerman[server.php] start in DEBUG mode
+2021-04-13 18:08:35 pid:76552 Workerman[server.php] start in DEBUG mode
+2021-04-13 18:08:43 pid:76557 Error: Cannot use object of type stdClass as array in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:19
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#9 {main}
+2021-04-13 18:08:43 pid:76557 Worker[76557] process terminated
+2021-04-13 18:08:43 pid:76552 worker[none:76557] exit with status 64000
+2021-04-13 18:11:03 pid:76857 Workerman[server.php] start in DEBUG mode
+2021-04-13 18:11:11 pid:76860 PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause' in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php:78
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(78): PDO->query('SELECT * FROM u...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php(32): Model->save()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(42): Workerman\Worker::runAll()
+#11 {main}
+2021-04-13 18:11:11 pid:76860 Worker[76860] process terminated
+2021-04-13 18:11:11 pid:76857 worker[none:76860] exit with status 64000
+2021-04-13 18:12:36 pid:77036 Workerman[server.php] start in DEBUG mode
+2021-04-13 19:12:33 pid:77038 worker[77038] remains 0 connection(s)
+2021-04-13 19:12:33 pid:69879 worker[69879] remains 0 connection(s)
+2021-04-14 09:04:36 pid:65742 Workerman[server.php] start in DEBUG mode
+2021-04-14 09:39:01 pid:65744 worker[65744] remains 0 connection(s)
+2021-04-14 09:39:31 pid:69574 Workerman[server.php] start in DEBUG mode
+2021-04-14 09:40:44 pid:69734 Workerman[server.php] start in DEBUG mode
+2021-04-14 09:42:13 pid:69930 Workerman[server.php] start in DEBUG mode
+2021-04-14 09:42:14 pid:69738 worker[69738] remains 0 connection(s)
+2021-04-14 10:15:50 pid:69934 Worker[69934] process terminated
+2021-04-14 10:15:50 pid:69933 Worker[69933] process terminated
+2021-04-14 10:15:50 pid:69932 Worker[69932] process terminated
+2021-04-14 10:15:50 pid:69931 Worker[69931] process terminated
+2021-04-14 10:16:14 pid:73586 Workerman[server.php] start in DEBUG mode
+2021-04-14 12:11:02 pid:4677 Workerman[server.php] start in DEBUG mode
+2021-04-14 12:13:14 pid:4679 PDOException: SQLSTATE[HY000] [2002] Connection refused in /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php:7
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php(7): PDO->__construct('mysql:host=127....', 'vsergeev', 'securepass')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(22): DatabaseConnection->__construct('127.0.0.1', '3000', 'vsergeev', 'securepass', 'card_game')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(13): Model->setConnection()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php(13): Model->__construct()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(31): Controller->__construct('{"login":"ella"...')
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"login":"ella"...')
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-14 12:13:14 pid:4679 Worker[4679] process terminated
+2021-04-14 12:13:14 pid:4677 worker[none:4679] exit with status 64000
+2021-04-14 12:50:17 pid:8780 Workerman[server.php] start in DEBUG mode
+2021-04-14 13:12:15 pid:11084 Workerman[server.php] start in DEBUG mode
+2021-04-14 15:34:08 pid:11085 Worker[11085] process terminated
+2021-04-14 15:55:59 pid:27768 Workerman[server.php] start in DEBUG mode
+2021-04-14 16:03:58 pid:28606 Workerman[server.php] start in DEBUG mode
+2021-04-14 16:09:03 pid:28608 worker[28608] remains 2 connection(s)
+2021-04-14 16:09:03 pid:28608 worker[28608] remains 1 connection(s)
+2021-04-14 16:09:03 pid:28608 worker[28608] remains 0 connection(s)
+2021-04-14 16:11:29 pid:29419 Workerman[server.php] start in DEBUG mode
+2021-04-14 16:18:48 pid:30211 Workerman[server.php] start in DEBUG mode
+2021-04-14 16:19:01 pid:29423 worker[29423] remains 2 connection(s)
+2021-04-14 16:19:01 pid:29423 worker[29423] remains 0 connection(s)
+2021-04-14 16:32:28 pid:31626 Workerman[server.php] start in DEBUG mode
+2021-04-14 16:32:32 pid:30213 worker[30213] remains 0 connection(s)
+2021-04-14 16:33:08 pid:30215 worker[30215] remains 0 connection(s)
+2021-04-14 16:37:35 pid:32162 Workerman[server.php] start in DEBUG mode
+2021-04-14 17:02:46 pid:32166 worker[32166] remains 1 connection(s)
+2021-04-14 17:02:46 pid:32166 worker[32166] remains 0 connection(s)
+2021-04-14 17:04:22 pid:34897 Workerman[server.php] start in DEBUG mode
+2021-04-14 17:09:25 pid:34901 worker[34901] remains 1 connection(s)
+2021-04-14 17:09:25 pid:34901 worker[34901] remains 0 connection(s)
+2021-04-14 17:09:32 pid:35465 Workerman[server.php] start in DEBUG mode
+2021-04-14 17:12:21 pid:35790 Workerman[server.php] start in DEBUG mode
+2021-04-14 17:36:33 pid:38253 Workerman[server.php] start in DEBUG mode
+2021-04-14 17:36:36 pid:35794 worker[35794] remains 1 connection(s)
+2021-04-14 17:36:36 pid:35794 worker[35794] remains 0 connection(s)
+2021-04-14 17:56:56 pid:38254 worker[38254] remains 1 connection(s)
+2021-04-14 17:56:56 pid:38254 worker[38254] remains 0 connection(s)
+2021-04-14 17:57:25 pid:40375 Workerman[server.php] start in DEBUG mode
+2021-04-14 18:04:28 pid:41162 Workerman[server.php] start in DEBUG mode
+2021-04-14 18:04:32 pid:40377 worker[40377] remains 2 connection(s)
+2021-04-14 18:04:32 pid:40377 worker[40377] remains 1 connection(s)
+2021-04-14 18:04:32 pid:40377 worker[40377] remains 0 connection(s)
+2021-04-14 19:06:44 pid:8783 worker[8783] remains 0 connection(s)
+2021-04-14 19:12:36 pid:1255 Workerman[server.php] start in DEBUG mode
+2021-04-14 19:20:51 pid:1259 worker[1259] remains 0 connection(s)
+2021-04-14 19:20:51 pid:1262 worker[1262] remains 0 connection(s)
+2021-04-14 19:21:16 pid:2381 Workerman[server.php] start in DEBUG mode
+2021-04-14 19:22:01 pid:2385 TypeError: count(): Argument #1 ($var) must be of type Countable|array, null given in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sear...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-14 19:22:01 pid:2385 Worker[2385] process terminated
+2021-04-14 19:22:01 pid:2381 worker[none:2385] exit with status 64000
+2021-04-14 19:23:27 pid:2647 Workerman[server.php] start in DEBUG mode
+2021-04-14 19:23:33 pid:2383 worker[2383] remains 0 connection(s)
+2021-04-14 19:33:29 pid:3772 Workerman[server.php] start in DEBUG mode
+2021-04-14 19:33:39 pid:2650 worker[2650] remains 0 connection(s)
+2021-04-14 19:33:39 pid:2651 worker[2651] remains 1 connection(s)
+2021-04-14 19:33:39 pid:2651 worker[2651] remains 0 connection(s)
+2021-04-14 19:45:11 pid:3776 worker[3776] remains 2 connection(s)
+2021-04-14 19:45:11 pid:3776 worker[3776] remains 1 connection(s)
+2021-04-14 19:45:11 pid:3776 worker[3776] remains 0 connection(s)
+2021-04-14 19:45:30 pid:5123 Workerman[server.php] start in DEBUG mode
+2021-04-14 19:55:31 pid:6224 Workerman[server.php] start in DEBUG mode
+2021-04-14 20:04:27 pid:7240 Workerman[server.php] start in DEBUG mode
+2021-04-14 20:16:45 pid:7244 worker[7244] remains 1 connection(s)
+2021-04-14 20:16:45 pid:7244 worker[7244] remains 0 connection(s)
+2021-04-15 09:26:49 pid:71192 Workerman[server.php] start in DEBUG mode
+2021-04-15 09:55:57 pid:74509 Workerman[server.php] start in DEBUG mode
+2021-04-15 10:20:46 pid:77159 Workerman[server.php] start in DEBUG mode
+2021-04-15 10:35:24 pid:78809 Workerman[server.php] start in DEBUG mode
+2021-04-15 10:40:53 pid:79422 Workerman[server.php] start in DEBUG mode
+2021-04-15 10:41:09 pid:78810 worker[78810] remains 0 connection(s)
+2021-04-15 10:53:19 pid:79424 worker[79424] remains 2 connection(s)
+2021-04-15 10:53:19 pid:79424 worker[79424] remains 0 connection(s)
+2021-04-15 10:53:48 pid:80812 Workerman[server.php] start in DEBUG mode
+2021-04-15 11:38:50 pid:85613 Workerman[server.php] start in DEBUG mode
+2021-04-15 11:38:59 pid:80815 worker[80815] remains 2 connection(s)
+2021-04-15 11:38:59 pid:80815 worker[80815] remains 1 connection(s)
+2021-04-15 11:38:59 pid:80815 worker[80815] remains 0 connection(s)
+2021-04-15 12:08:04 pid:88784 Workerman[server.php] start in DEBUG mode
+2021-04-15 12:08:20 pid:85616 worker[85616] remains 0 connection(s)
+2021-04-15 12:11:26 pid:85615 worker[85615] remains 0 connection(s)
+2021-04-15 12:11:34 pid:88785 Error: Call to undefined method Game::set_state() in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:74
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 12:11:34 pid:88785 Worker[88785] process terminated
+2021-04-15 12:11:34 pid:88784 worker[none:88785] exit with status 64000
+2021-04-15 12:16:01 pid:89158 Error: Call to a member function set_state() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:74
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 12:16:01 pid:89158 Worker[89158] process terminated
+2021-04-15 12:16:01 pid:88784 worker[none:89158] exit with status 64000
+2021-04-15 12:27:19 pid:88788 worker[88788] remains 0 connection(s)
+2021-04-15 12:28:48 pid:91021 Workerman[server.php] start in DEBUG mode
+2021-04-15 12:29:07 pid:88786 worker[88786] remains 1 connection(s)
+2021-04-15 12:29:07 pid:88786 worker[88786] remains 0 connection(s)
+2021-04-15 12:39:03 pid:92120 Workerman[server.php] start in DEBUG mode
+2021-04-15 12:39:13 pid:91025 worker[91025] remains 0 connection(s)
+2021-04-15 12:39:30 pid:91024 worker[91024] remains 0 connection(s)
+2021-04-15 13:40:40 pid:98661 Workerman[server.php] start in DEBUG mode
+2021-04-15 13:41:11 pid:92124 worker[92124] remains 0 connection(s)
+2021-04-15 13:48:23 pid:98663 worker[98663] remains 1 connection(s)
+2021-04-15 13:48:23 pid:98663 worker[98663] remains 0 connection(s)
+2021-04-15 13:53:23 pid:204 Workerman[server.php] start in DEBUG mode
+2021-04-15 13:53:45 pid:98664 worker[98664] remains 0 connection(s)
+2021-04-15 14:00:10 pid:205 worker[205] remains 0 connection(s)
+2021-04-15 14:00:21 pid:1110 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:01:01 pid:208 worker[208] remains 0 connection(s)
+2021-04-15 14:01:50 pid:1113 Error: Call to a member function giveup() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:78
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 14:01:50 pid:1113 Worker[1113] process terminated
+2021-04-15 14:01:50 pid:1110 worker[none:1113] exit with status 64000
+2021-04-15 14:10:48 pid:2278 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:11:07 pid:1111 worker[1111] remains 0 connection(s)
+2021-04-15 14:17:25 pid:3018 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:17:32 pid:2282 worker[2282] remains 1 connection(s)
+2021-04-15 14:17:32 pid:2282 worker[2282] remains 0 connection(s)
+2021-04-15 14:19:05 pid:3020 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:31
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 14:19:05 pid:3020 Worker[3020] process terminated
+2021-04-15 14:19:05 pid:3018 worker[none:3020] exit with status 64000
+2021-04-15 14:21:53 pid:3417 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:31
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 14:21:53 pid:3417 Worker[3417] process terminated
+2021-04-15 14:21:53 pid:3018 worker[none:3417] exit with status 64000
+2021-04-15 14:26:10 pid:4208 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:39:23 pid:5654 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:39:26 pid:4212 worker[4212] remains 0 connection(s)
+2021-04-15 14:39:39 pid:4210 worker[4210] remains 0 connection(s)
+2021-04-15 14:40:25 pid:5657 Error: Call to a member function send() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Game.php:34
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php(79): Game->giveup('james')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(33): Controller->handler()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #42)
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(44): Workerman\Worker::runAll()
+#10 {main}
+2021-04-15 14:40:25 pid:5657 Worker[5657] process terminated
+2021-04-15 14:40:25 pid:5654 worker[none:5657] exit with status 65280
+2021-04-15 14:42:55 pid:5655 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(33): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(44): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 14:42:56 pid:5655 Worker[5655] process terminated
+2021-04-15 14:42:56 pid:5654 worker[none:5655] exit with status 64000
+2021-04-15 14:42:56 pid:5777 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(33): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(44): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 14:42:56 pid:5777 Worker[5777] process terminated
+2021-04-15 14:42:56 pid:5654 worker[none:5777] exit with status 64000
+2021-04-15 14:47:03 pid:6532 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:48:02 pid:6536 worker[6536] remains 0 connection(s)
+2021-04-15 14:48:06 pid:6534 worker[6534] remains 0 connection(s)
+2021-04-15 14:48:31 pid:6709 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:52:09 pid:7138 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:52:34 pid:6711 worker[6711] remains 0 connection(s)
+2021-04-15 14:56:07 pid:7584 Workerman[server.php] start in DEBUG mode
+2021-04-15 14:56:15 pid:6713 worker[6713] remains 0 connection(s)
+2021-04-15 14:56:23 pid:7139 worker[7139] remains 0 connection(s)
+2021-04-15 14:56:26 pid:7142 worker[7142] remains 0 connection(s)
+2021-04-15 15:06:33 pid:8733 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:07:42 pid:7585 worker[7585] remains 0 connection(s)
+2021-04-15 15:12:30 pid:9392 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:12:36 pid:9397 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82O\xA2\xF7\xA6LK', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:12:36 pid:9397 Worker[9397] process terminated
+2021-04-15 15:12:36 pid:9392 worker[none:9397] exit with status 64000
+2021-04-15 15:12:48 pid:8737 worker[8737] remains 1 connection(s)
+2021-04-15 15:12:48 pid:8737 worker[8737] remains 0 connection(s)
+2021-04-15 15:12:50 pid:9424 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82's\x14F$\x9A', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:12:50 pid:9424 Worker[9424] process terminated
+2021-04-15 15:12:50 pid:9392 worker[none:9424] exit with status 64000
+2021-04-15 15:12:53 pid:9396 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82_Y}\xFA\\\xB0', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:12:53 pid:9396 Worker[9396] process terminated
+2021-04-15 15:12:53 pid:9392 worker[none:9396] exit with status 64000
+2021-04-15 15:13:05 pid:9395 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82=\xEB\xB4E>\x02', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:13:05 pid:9395 Worker[9395] process terminated
+2021-04-15 15:13:05 pid:9392 worker[none:9395] exit with status 64000
+2021-04-15 15:13:07 pid:9478 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xEE9\x8A\xAE\xED\xD0', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:13:07 pid:9478 Worker[9478] process terminated
+2021-04-15 15:13:07 pid:9392 worker[none:9478] exit with status 64000
+2021-04-15 15:14:54 pid:9480 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82p\xCE\xD9\x14s'', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:14:54 pid:9480 Worker[9480] process terminated
+2021-04-15 15:14:54 pid:9392 worker[none:9480] exit with status 64000
+2021-04-15 15:15:23 pid:9733 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:15:45 pid:9737 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\r\x9F\nr\x0Ev', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:15:45 pid:9737 Worker[9737] process terminated
+2021-04-15 15:15:45 pid:9733 worker[none:9737] exit with status 64000
+2021-04-15 15:15:47 pid:9782 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xAF\xB7\x8E\xE0\xAC^', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:15:47 pid:9782 Worker[9782] process terminated
+2021-04-15 15:15:47 pid:9733 worker[none:9782] exit with status 64000
+2021-04-15 15:16:00 pid:9793 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xFB\x0Fa\xA3\xF8\xE6', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:16:00 pid:9793 Worker[9793] process terminated
+2021-04-15 15:16:00 pid:9733 worker[none:9793] exit with status 64000
+2021-04-15 15:16:05 pid:9735 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82{8\xA4\xCCx\xD1', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:16:05 pid:9735 Worker[9735] process terminated
+2021-04-15 15:16:05 pid:9733 worker[none:9735] exit with status 64000
+2021-04-15 15:16:21 pid:9736 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\fl\xB1\n\x0F\x85', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:16:21 pid:9736 Worker[9736] process terminated
+2021-04-15 15:16:21 pid:9733 worker[none:9736] exit with status 64000
+2021-04-15 15:16:21 pid:9734 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 15:16:21 pid:9734 Worker[9734] process terminated
+2021-04-15 15:16:21 pid:9733 worker[none:9734] exit with status 64000
+2021-04-15 15:16:21 pid:9858 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:16:21 pid:9858 Worker[9858] process terminated
+2021-04-15 15:16:21 pid:9733 worker[none:9858] exit with status 64000
+2021-04-15 15:16:27 pid:9859 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:16:27 pid:9859 Worker[9859] process terminated
+2021-04-15 15:16:27 pid:9733 worker[none:9859] exit with status 64000
+2021-04-15 15:16:29 pid:9866 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:30
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 15:16:29 pid:9866 Worker[9866] process terminated
+2021-04-15 15:16:29 pid:9733 worker[none:9866] exit with status 64000
+2021-04-15 15:17:59 pid:9828 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xAB\x97U\xC3\xA8~', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:17:59 pid:9828 Worker[9828] process terminated
+2021-04-15 15:17:59 pid:9733 worker[none:9828] exit with status 64000
+2021-04-15 15:18:03 pid:9831 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xD39<\xA9\xD0\xD0', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:18:03 pid:9831 Worker[9831] process terminated
+2021-04-15 15:18:03 pid:9733 worker[none:9831] exit with status 64000
+2021-04-15 15:18:06 pid:9857 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xA5\x08\xDF\xF5\xA6\xE1', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:18:06 pid:9857 Worker[9857] process terminated
+2021-04-15 15:18:06 pid:9733 worker[none:9857] exit with status 64000
+2021-04-15 15:18:42 pid:10055 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82}\xDB\xC1C~2', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:18:42 pid:10055 Worker[10055] process terminated
+2021-04-15 15:18:42 pid:9733 worker[none:10055] exit with status 64000
+2021-04-15 15:30:59 pid:10122 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\x14\xF0\xA5 \x17\x19', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #41)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:31:00 pid:10122 worker[10122] remains 0 connection(s)
+2021-04-15 15:31:26 pid:11498 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:32:07 pid:9875 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:39
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xB9\x075\xCC\xBA\xEE', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 15:32:07 pid:9875 worker[9875] remains 0 connection(s)
+2021-04-15 15:38:46 pid:12296 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:40:47 pid:11501 worker[11501] remains 1 connection(s)
+2021-04-15 15:43:38 pid:12845 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:51:24 pid:13712 Workerman[server.php] start in DEBUG mode
+2021-04-15 15:52:24 pid:12848 worker[12848] remains 0 connection(s)
+2021-04-15 15:52:30 pid:13714 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php:34
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 15:52:30 pid:13714 Worker[13714] process terminated
+2021-04-15 15:52:30 pid:13712 worker[none:13714] exit with status 64000
+2021-04-15 15:52:52 pid:13716 Error: Call to a member function send() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Game.php:42
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/controller/controller.php(83): Game->giveup('james')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(32): Controller->handler()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(43): Workerman\Worker::runAll()
+#10 {main}
+2021-04-15 15:52:52 pid:13716 Worker[13716] process terminated
+2021-04-15 15:52:52 pid:13712 worker[none:13716] exit with status 64000
+2021-04-15 15:54:19 pid:14052 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:15:32 pid:16363 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:15:44 pid:16366 Error: Using $this when not in object context in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:44
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#8 {main}
+2021-04-15 16:15:44 pid:16366 Worker[16366] process terminated
+2021-04-15 16:15:44 pid:16363 worker[none:16366] exit with status 64000
+2021-04-15 16:15:52 pid:16395 Error: Using $this when not in object context in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:44
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#10 {main}
+2021-04-15 16:15:52 pid:16395 Worker[16395] process terminated
+2021-04-15 16:15:52 pid:16363 worker[none:16395] exit with status 64000
+2021-04-15 16:19:19 pid:16799 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:19:22 pid:16420 worker[16420] remains 0 connection(s)
+2021-04-15 16:19:26 pid:14056 worker[14056] remains 0 connection(s)
+2021-04-15 16:24:13 pid:17363 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:25:57 pid:17588 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:26:31 pid:14054 worker[14054] remains 0 connection(s)
+2021-04-15 16:27:01 pid:17593 Error: Call to a member function send() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Game.php:38
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(58): Game->giveup('ella')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 16:27:01 pid:17593 Worker[17593] process terminated
+2021-04-15 16:27:01 pid:17588 worker[none:17593] exit with status 64000
+2021-04-15 16:29:00 pid:17589 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:41
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#8 {main}
+2021-04-15 16:29:00 pid:17589 Worker[17589] process terminated
+2021-04-15 16:29:00 pid:17588 worker[none:17589] exit with status 64000
+2021-04-15 16:30:18 pid:17592 Error: Call to a member function init() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:41
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"init...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#8 {main}
+2021-04-15 16:30:18 pid:17592 Worker[17592] process terminated
+2021-04-15 16:30:18 pid:17588 worker[none:17592] exit with status 64000
+2021-04-15 16:30:42 pid:17714 Error: Using $this when not in object context in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:66
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"stop...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#10 {main}
+2021-04-15 16:30:42 pid:17714 Worker[17714] process terminated
+2021-04-15 16:30:42 pid:17588 worker[none:17714] exit with status 64000
+2021-04-15 16:31:36 pid:18224 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:31:59 pid:17594 worker[17594] remains 0 connection(s)
+2021-04-15 16:32:11 pid:18230 Error: Call to a member function send() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Game.php:38
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(58): Game->giveup('ella')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 16:32:11 pid:18230 Worker[18230] process terminated
+2021-04-15 16:32:11 pid:18224 worker[none:18230] exit with status 64000
+2021-04-15 16:32:37 pid:18358 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:33:00 pid:18225 worker[18225] remains 0 connection(s)
+2021-04-15 16:37:26 pid:18364 Error: Call to a member function send() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/models/Game.php:38
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(58): Game->giveup('james')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#9 {main}
+2021-04-15 16:37:26 pid:18364 Worker[18364] process terminated
+2021-04-15 16:37:26 pid:18358 worker[none:18364] exit with status 64000
+2021-04-15 16:38:20 pid:18360 Error: Call to a member function giveup() on null in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:58
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"leav...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(146): Workerman\Worker::runAll()
+#8 {main}
+2021-04-15 16:38:20 pid:18360 Worker[18360] process terminated
+2021-04-15 16:38:20 pid:18358 worker[none:18360] exit with status 64000
+2021-04-15 16:44:18 pid:19620 Workerman[server.php] start in DEBUG mode
+2021-04-15 16:45:06 pid:19626 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82`\x98w\xABcq', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 16:45:06 pid:19626 Worker[19626] process terminated
+2021-04-15 16:45:06 pid:19620 worker[none:19626] exit with status 64000
+2021-04-15 16:45:29 pid:18882 worker[18882] remains 0 connection(s)
+2021-04-15 16:45:30 pid:19622 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xAC\xB5/<\xAF\\', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 16:45:30 pid:19622 Worker[19622] process terminated
+2021-04-15 16:45:30 pid:19620 worker[none:19622] exit with status 64000
+2021-04-15 16:45:33 pid:19624 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xA2\x07\xCB\xA9\xA1\xEE', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 16:45:33 pid:19624 Worker[19624] process terminated
+2021-04-15 16:45:33 pid:19620 worker[none:19624] exit with status 64000
+2021-04-15 16:45:42 pid:19623 Error: Using $this when not in object context in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:67
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"stop...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#8 {main}
+2021-04-15 16:45:42 pid:19623 Worker[19623] process terminated
+2021-04-15 16:45:42 pid:19620 worker[none:19623] exit with status 64000
+2021-04-15 16:45:58 pid:19621 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\x04\xF1J\x17\x07\x18', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 16:45:58 pid:19621 Worker[19621] process terminated
+2021-04-15 16:45:58 pid:19620 worker[none:19621] exit with status 64000
+2021-04-15 16:46:01 pid:19756 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\x86V\xAD\xEB\x85\xBF', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 16:46:01 pid:19756 Worker[19756] process terminated
+2021-04-15 16:46:01 pid:19620 worker[none:19756] exit with status 64000
+2021-04-15 16:46:10 pid:19777 Error: Using $this when not in object context in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:67
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"stop...')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#10 {main}
+2021-04-15 16:46:10 pid:19777 Worker[19777] process terminated
+2021-04-15 16:46:10 pid:19620 worker[none:19777] exit with status 64000
+2021-04-15 16:57:53 pid:19721 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82Kz\\}H\x93', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 16:57:53 pid:19721 Worker[19721] process terminated
+2021-04-15 16:57:53 pid:19620 worker[none:19721] exit with status 64000
+2021-04-15 17:13:01 pid:19625 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xF3\xC4?\x90\xF0-', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 17:13:01 pid:19625 worker[19625] remains 0 connection(s)
+2021-04-15 17:14:13 pid:22875 Workerman[server.php] start in DEBUG mode
+2021-04-15 17:14:22 pid:22881 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:106
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82=\xB2#g>[', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(147): Workerman\Worker::runAll()
+#11 {main}
+2021-04-15 17:14:22 pid:22881 Worker[22881] process terminated
+2021-04-15 17:14:22 pid:22875 worker[none:22881] exit with status 64000
+2021-04-15 17:14:24 pid:22898 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:106
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\xD4\xD0\x95\x0F\xD79', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(147): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 17:14:24 pid:22898 Worker[22898] process terminated
+2021-04-15 17:14:24 pid:22875 worker[none:22898] exit with status 64000
+2021-04-15 17:15:19 pid:23012 Workerman[server.php] start in DEBUG mode
+2021-04-15 17:15:23 pid:22901 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:106
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\x10\x11F'\x13\xF8', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(147): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 17:15:23 pid:22901 worker[22901] remains 0 connection(s)
+2021-04-15 17:19:17 pid:23473 Workerman[server.php] start in DEBUG mode
+2021-04-15 17:53:07 pid:19818 Error: Call to undefined method Workerman\Connection\TcpConnection::clean() in /Users/vsergeev/Desktop/Stage3/Race01/server/server.php:107
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02\x03\xE8', true)
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input('\x88\x82\x02[\xB0\xDA\x01\xB2', Object(Workerman\Connection\TcpConnection))
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1691): Workerman\Worker::forkWorkers()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1640): Workerman\Worker::monitorWorkersForLinux()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(148): Workerman\Worker::runAll()
+#13 {main}
+2021-04-15 17:53:07 pid:19818 worker[19818] remains 0 connection(s)
+2021-04-15 18:38:59 pid:23017 worker[23017] remains 0 connection(s)
+2021-04-16 09:02:19 pid:53958 Workerman[server.php] start in DEBUG mode
+2021-04-16 09:02:31 pid:53964 PDOException: SQLSTATE[HY000] [2002] Connection refused in /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php:7
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php(7): PDO->__construct('mysql:host=127....', 'vsergeev', 'securepass')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(23): DatabaseConnection->__construct('127.0.0.1', '3000', 'vsergeev', 'securepass', 'card_game')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(14): Model->setConnection()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(36): Model->__construct()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(147): Workerman\Worker::runAll()
+#12 {main}
+2021-04-16 09:02:31 pid:53964 Worker[53964] process terminated
+2021-04-16 09:02:31 pid:53958 worker[none:53964] exit with status 64000
+2021-04-16 09:03:03 pid:53963 PDOException: SQLSTATE[HY000] [2002] Connection refused in /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php:7
+Stack trace:
+#0 /Users/vsergeev/Desktop/Stage3/Race01/server/models/connection/DatabaseConnection.php(7): PDO->__construct('mysql:host=127....', 'vsergeev', 'securepass')
+#1 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(23): DatabaseConnection->__construct('127.0.0.1', '3000', 'vsergeev', 'securepass', 'card_game')
+#2 /Users/vsergeev/Desktop/Stage3/Race01/server/models/Model.php(14): Model->setConnection()
+#3 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(36): Model->__construct()
+#4 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"action":"sign...')
+#5 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#6 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#7 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1554): Workerman\Worker->run()
+#8 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1384): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(1358): Workerman\Worker::forkWorkersForLinux()
+#10 /Users/vsergeev/Desktop/Stage3/Race01/server/websockets/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#11 /Users/vsergeev/Desktop/Stage3/Race01/server/server.php(147): Workerman\Worker::runAll()
+#12 {main}
+2021-04-16 09:03:03 pid:53963 Worker[53963] process terminated
+2021-04-16 09:03:03 pid:53958 worker[none:53963] exit with status 64000
+2021-04-16 09:03:22 pid:54300 Workerman[server.php] start in DEBUG mode
+2021-04-16 09:03:24 pid:54011 worker[54011] remains 0 connection(s)
+2021-04-16 09:04:41 pid:54541 Workerman[server.php] start in DEBUG mode

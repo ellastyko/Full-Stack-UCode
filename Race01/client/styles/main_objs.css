@@ -1,0 +1,264 @@
+html {
+
+    background: url('../images/bg.jpeg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.loading {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif') no-repeat center center fixed; 
+}
+
+body {
+
+    margin: 0;
+    padding:0;
+}
+
+span {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-top: 5px;
+    padding-left: 3px;
+
+    text-align: center;
+}
+
+.main_form {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 220px;
+
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+
+    padding: 20px;
+
+    margin: auto;
+
+    border-radius: 5px;
+
+    opacity: 0.9;
+}
+
+.buttons {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.button {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: whitesmoke;
+
+    transition: font-size 0.3s;
+
+    border: 0;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    margin-top: 5px;
+
+    font-size: 15px;
+
+}
+
+.button:hover {
+
+    border: 0;
+
+    padding: 5px;
+
+    font-size: 20px;
+}
+
+form > input, .passwords > input {
+
+    background: rgb(70, 70, 70);
+    color: whitesmoke;
+    
+    border: 0;
+    border-radius: 5px;
+
+    margin: 5px 0;
+}
+
+.remindpswd_button {
+
+    background-color: rgb(110, 0, 80);
+}
+
+.remindpswd_button:hover {
+
+    background-color: rgb(165, 0, 120);
+}
+
+.signin_button {
+
+    background-color: rgb(15, 0, 110);
+}
+
+.signin_button:hover {
+
+    background-color: rgb(20, 0, 170);
+}
+
+.signup_button {
+
+    background: rgb(65, 15, 105);
+}
+
+.signup_button:hover {
+
+    background: rgb(100, 0, 185);
+}
+
+.clear_button {
+
+    background-color: rgb(135, 0, 0);
+}
+
+.clear_button:hover {
+
+    background-color: rgb(180, 35, 35);
+}
+
+.goto_main_button {
+
+    background-color: rgb(5, 135, 0);
+}
+
+.goto_main_button:hover {
+
+    background-color: rgb(5, 205, 0);
+}
+
+.signout_button {
+
+    background-color: rgb(0, 100, 90);
+}
+
+.signout_button:hover {
+
+    background-color: rgb(0, 145, 130);
+}
+
+.battle_button {
+
+    background-color: rgb(170, 15, 15);
+}
+
+.battle_button:hover {
+
+    background-color: rgb(225, 10, 10);
+}
+
+.cards_button {
+
+    background-color: rgb(195, 170, 0);
+}
+
+.cards_button:hover {
+    
+    background-color: rgb(230, 200, 0);
+}
+
+.goto_userinfo_button {
+
+    background-color: rgb(0, 165, 165);
+    width: 200px;
+    align-self: center;
+}
+
+.goto_userinfo_button:hover {
+
+    background-color: rgb(0, 210, 210);
+}
+
+.createdeck_button {
+
+    background-color: rgb(175, 0, 135);
+}
+
+.createdeck_button:hover {
+
+    background-color: rgb(220, 0, 170);
+}
+
+.addcard_button {
+
+    width: 200px;
+    background-color: rgb(40, 175, 0);
+}
+
+.addcard_button:hover {
+
+    background-color: rgb(50, 225, 0);
+}
+
+.deletecard_button {
+
+    width: 200px;
+    background-color: rgb(170, 15, 15);
+}
+
+.deletecard_button:hover {
+
+    background-color: rgb(180, 35, 35);
+}
+
+.main_text {
+
+    margin: 0;
+}
+
+.card {
+
+    display: flex;
+    flex-flow: row;
+}
+
+.stats {
+
+    padding: 5px;
+}
+
+.hero_img {
+
+    width: 200px;
+    height: 300px;
+
+    padding: 5px;
+    margin: 5px 0;
+
+    border-radius: 5px;
+    background: none;
+}
+
+.user_image {
+
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+
+}
+
+.deck_buttons {
+
+    display: flex;
+    justify-content: space-around;
+}
